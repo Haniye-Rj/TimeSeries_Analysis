@@ -34,7 +34,7 @@ install.packages("renv")
 renv::restore()
 ```
 
-After restoring the environment, run `analysis.R` to reproduce the empirical results.
+After restoring the environment, run `TimeSeries.R` to reproduce the empirical results.
 
 ## Software Requirements
 

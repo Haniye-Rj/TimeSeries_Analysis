@@ -53,28 +53,13 @@ Required packages:
 * strucchange
 * vars
 
-Install required packages using:
-
-```r
-install.packages(c(
-  "tidyverse",
-  "jsonlite",
-  "tseries",
-  "lmtest",
-  "dynlm",
-  "gridExtra",
-  "corrplot",
-  "strucchange",
-  "vars"
-))
-```
-
 ## Project Structure
 
 * `results_20260424.csv` – Exchange-rate data
 * `ioda-iran.csv` – IODA internet connectivity data
 * `analysis.R` – Main R script
 * `Project_Report.pdf` – Final report
+* renv.lock
 
 ## Methodology
 

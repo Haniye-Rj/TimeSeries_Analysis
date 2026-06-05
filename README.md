@@ -23,7 +23,21 @@ Description: Daily free-market USD/Toman exchange-rate observations.
 Source: Internet Outage Detection and Analysis (IODA) Platform
 Description: Network telemetry data based on Active Probing measurements.
 
+## Reproducibility
+
+This project uses the `renv` package to manage package dependencies. The file `renv.lock` contains the package versions used during the analysis.
+
+To reproduce the environment:
+
+```r
+install.packages("renv")
+renv::restore()
+```
+
+After restoring the environment, run `analysis.R` to reproduce the empirical results.
+
 ## Software Requirements
+
 
 The analysis was conducted in R.
 
